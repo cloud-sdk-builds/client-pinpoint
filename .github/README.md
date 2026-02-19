@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-pinpoint`](https://www.npmjs.com/package/@aws-sdk/client-pinpoint/v/3.908.0).
+[`@aws-sdk/client-pinpoint`](https://www.npmjs.com/package/@aws-sdk/client-pinpoint/v/3.910.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint@3.908.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint@3.910.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-0M/29aeQWQW8JY87AK0rWBv/c04BwcrYCtCIqxUXgLuEC3RhyUL9pETad/8szJAS
+sha384-MqR/1ZxBR2i3VOSob3rjFL8hqmUlYsICGzDeYVXIf6unX4Y2dN1R/uzwJrV+1Msw
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-pinpoint": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint@3.908.0/index.min.mjs"
+            "@aws-sdk/client-pinpoint": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint@3.910.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint@3.908.0/index.min.mjs": "sha384-0M/29aeQWQW8JY87AK0rWBv/c04BwcrYCtCIqxUXgLuEC3RhyUL9pETad/8szJAS"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint@3.910.0/index.min.mjs": "sha384-MqR/1ZxBR2i3VOSob3rjFL8hqmUlYsICGzDeYVXIf6unX4Y2dN1R/uzwJrV+1Msw"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-pinpoint": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint@3.908.0/index.min.mjs"
+                        "@aws-sdk/client-pinpoint": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint@3.910.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint@3.908.0/index.min.mjs": "sha384-0M/29aeQWQW8JY87AK0rWBv/c04BwcrYCtCIqxUXgLuEC3RhyUL9pETad/8szJAS"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint@3.910.0/index.min.mjs": "sha384-MqR/1ZxBR2i3VOSob3rjFL8hqmUlYsICGzDeYVXIf6unX4Y2dN1R/uzwJrV+1Msw"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.908.0`)
+* Always pin to a specific version (`@3.910.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-pinpoint/blob/refs/tags/3.908.0/LICENSE
+https://github.com/cloud-sdk-builds/client-pinpoint/blob/refs/tags/3.910.0/LICENSE
 ```
 
 ---
